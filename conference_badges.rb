@@ -20,4 +20,5 @@ end
 def printer()
   name_list = batch_badge_creator().collect
   room_list = assign_rooms().collect
+  name_list.each {|i| puts i}
 end
