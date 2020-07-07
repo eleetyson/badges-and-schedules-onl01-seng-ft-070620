@@ -1,6 +1,6 @@
 # Write your code here.
-def badge_maker(arr1)
-
+def badge_maker(name)
+  
 end
 
   arr2 = []
