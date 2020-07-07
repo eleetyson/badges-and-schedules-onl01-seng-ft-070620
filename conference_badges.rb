@@ -17,9 +17,9 @@ def assign_rooms(speakers)
   rooms
 end
 
-def printer()
-  name_list = batch_badge_creator().collect
-  room_list = assign_rooms().collect
+def printer(attendee)
+  name_list = batch_badge_creator(attendee).collect
+  room_list = assign_rooms(attendee).collect
   name_list.each {|i| puts i}
   room_list.each {|j| puts j}
 end
