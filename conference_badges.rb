@@ -5,7 +5,7 @@ end
 
 def batch_badge_creator(arr1)
   arr2 = []
-  arr1.each {|i| (arr2 << "Hello, my name is #{i}."}
+  arr1.each {|i| arr2 << "Hello, my name is #{i}."}
   arr2
 end
 
