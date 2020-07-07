@@ -18,8 +18,8 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  name_list = batch_badge_creator(attendees).collect
-  room_list = assign_rooms(attendee).collect
+  name_list = batch_badge_creator(attendees)
+  room_list = assign_rooms(attendee)
   name_list.each {|i| puts i}
   room_list.each {|j| puts j}
 end
