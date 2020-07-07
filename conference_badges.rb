@@ -11,7 +11,9 @@ end
 
 def assign_rooms(speakers)
   rooms = []
-  speakers.each_with_index
+  speakers.each_with_index do |speaker|
+    
+  end
 end
 
 def printer()
